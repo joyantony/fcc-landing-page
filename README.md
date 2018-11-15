@@ -1,2 +1,2 @@
 # fcc-landing-page
-Responsive Web Design Projects - Product Landing Page
+Free code camp Responsive Web Design Projects - Product Landing Page
