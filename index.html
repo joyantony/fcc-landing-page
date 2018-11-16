@@ -4,20 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FCC Landing Page</title>
+    <title>FCC Landing Page</title>  
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="header">
-        <img src="img/house_boat.png" alt="Houseboat Logo" id="header-img">
-        <h3 class="brand">One Day Cruise</h3>
-        <nav id="nav-bar">
-            <ul>
-                <li class="nav-link"><a href="#features">Features</a></li>
-                <li class="nav-link"><a href="#video">Virtual Trip</a></li>
-                <li class="nav-link"><a href="#pricing">Pricing</a></li>
-            </ul>
-        </nav>
+      <img src="img/house_boat.png" alt="Houseboat Logo" id="header-img">
+      <h3 class="brand">One Day Cruise</h3>
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="#features">Features</a></li>
+          <li class="nav-link"><a href="#video-trip">Virtual Trip</a></li>
+          <li class="nav-link"><a href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <section class="showcase">
+      <div class="showcase-wrapper">
+          <div class="showcase-overlay">
+          <img class="showcase-img" src="img/house_boat_showcase.jpg" alt="Houseboat Image">
+          <div class="showcase-text">
+            <h1>Kerala Backwaters</h1>
+            <h2>Houseboat Trip</h2>
+            <p>A trip that gives you a life long memories.</p>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+              <input type="email" name="email" id="email" placeholder="Your email address">
+              <input type="submit" value="get started" id="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+          <h2 class="sub-heading">Our Features</h2>
+
+          <div>
+              <i class="fas fa-life-ring fa-3x"></i>
+              <h3 class="features-sub-heading">
+                Safety First
+              </h3>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, qui eum id placeat eligendi debitis?
+          </div>
+          <div>
+              <i class="far fa-money-bill-alt fa-3x"></i>
+              <h3 class="features-sub-heading">
+                Affordable
+              </h3>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime sapiente voluptatum possimus dolore vero saepe.
+          </div>
+          <div>
+              <i class="fas fa-utensils fa-3x"></i>
+              <h3 class="features-sub-heading">
+                Kerala Cuisine
+              </h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptatum at quaerat dolores ipsa molestias!
+          </div>
+      </div>
+    </section>
+
+    <section id="video_trip">
+      <div class="container">
+        <h2 class="sub-heading">
+          Virtual Trip
+        </h2>
+        <div class="dummy">
+          <!-- <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/cWH9Oblp1sU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="container">
+        <div class="pricing-card">
+          <h3 class="pricing-card-head">
+            Small
+          </h3>
+          <div class="pricing-card-body">
+            <ul>
+              <li class="pricing-card-item">Lorem, ipsum.</li>
+              <li class="pricing-card-item">Lorem, ipsum.</li>
+              <li class="pricing-card-item">Lorem, ipsum.</li>
+              <li class="pricing-card-item">Lorem, ipsum.</li>
+            </ul>
+          </div>
+          <div class="pricing-card-button">
+            <button class="card-btn">Select</button>
+          </div>
+        </div>
+        <div class="pricing-card">
+            <h3 class="pricing-card-head">
+              Medium
+            </h3>
+            <div class="pricing-card-body">
+              <ul>
+                <li class="pricing-card-item">Lorem, ipsum.</li>
+                <li class="pricing-card-item">Lorem, ipsum.</li>
+                <li class="pricing-card-item">Lorem, ipsum.</li>
+                <li class="pricing-card-item">Lorem, ipsum.</li>
+              </ul>
+            </div>
+            <div class="pricing-card-button">
+              <button class="card-btn">Select</button>
+            </div>
+          </div>
+          <div class="pricing-card">
+              <h3 class="pricing-card-head">
+                Large
+              </h3>
+              <div class="pricing-card-body">
+                <ul>
+                  <li class="pricing-card-item">Lorem, ipsum.</li>
+                  <li class="pricing-card-item">Lorem, ipsum.</li>
+                  <li class="pricing-card-item">Lorem, ipsum.</li>
+                  <li class="pricing-card-item">Lorem, ipsum.</li>
+                </ul>
+              </div>
+              <div class="pricing-card-button">
+                <button class="card-btn">Select</button>
+              </div>
+            </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <p class="copy">Desinged for FCC responsive web project @joy.antony</p>
+      </div>
+    </footer>
+
 </body>
 </html>
