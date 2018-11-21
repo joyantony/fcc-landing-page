@@ -17,6 +17,10 @@ body{
     margin: 0 auto;
 }
 
+.center-text{
+    text-align: center;
+}
+
 #header-img{
     height: 50px;
     widows: 50px;
@@ -104,8 +108,11 @@ body{
 .flex-sub-item{
     display: flex;
     flex-direction: column;
-    padding: 0 1.25rem;
+    padding: 1.25rem;
     justify-content: center;
+    border: 1px solid #0066d6;
+    border-radius: 5px;
+    margin: 0 1.25rem;
 }
 
 .sub-heading{
@@ -124,7 +131,7 @@ body{
 }
 
 .features-text{
-    text-align: justify;
+    text-align: center;
 }
 
 
@@ -160,6 +167,14 @@ body{
         font-size: 1rem;
     }
 
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .flex-sub-item{
+        margin-bottom: 1.25rem;
+    }
+
     #form input[type=email]{
         width: 15.625rem;
         padding: .35rem;
@@ -171,5 +186,12 @@ body{
         padding: .4rem;
         font-size: 1rem;
         font-weight: 300;
+    }
+}
+
+@media (max-width: 570px){
+    #video{
+        width: auto;
+        height: auto;
     }
 }

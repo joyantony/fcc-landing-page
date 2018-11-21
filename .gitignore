@@ -26,6 +26,7 @@ $RECYCLE.BIN/
 
 #etc folder
 etc/
+premiumlogo/
 
 
 # End of https://www.gitignore.io/api/sass,windows,sublimetext
