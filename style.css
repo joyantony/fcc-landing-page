@@ -87,7 +87,7 @@ body{
     -webkit-appearance: none;
     -moz-appearance: none;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
     border-radius: 5px;
 }
@@ -158,6 +158,28 @@ body{
 
 .pricing-card ul li{
     line-height: 1.8rem;
+}
+
+.pricing-card-price{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-btn{
+    background: #007bff;
+    color: #fff;
+    padding: .7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 8rem;
+    font-size: 1.2rem;
+}
+
+.card-btn:hover{
+    background: #0066d6;
 }
 
 
