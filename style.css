@@ -96,13 +96,18 @@ body{
     background: #0066d6;
 }
 
-.top-padding{
-    padding-top: 1rem;
+.tb-padding{
+    padding-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+#video-trip{
+    background: #dddddd;
 }
 
 .flex-container{
     display: flex;
-    /* padding: 1.25rem 0; */
+    padding: 0 1.25rem;
     justify-content: space-between;
 }
 
@@ -116,10 +121,12 @@ body{
     margin: 0 1.25rem;
 }
 
+
 .sub-heading{
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
+    margin-top: .625rem;
 }
 
 .fas, .far{
@@ -182,7 +189,19 @@ body{
     background: #0066d6;
 }
 
+.main-footer{
+    text-align: center;
+    background: #dddddd;
+    padding: 1.25rem 0;
+}
 
+.main-footer ul{
+    list-style-type: none;
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+}
 
 
 /* media query */
@@ -247,4 +266,5 @@ body{
         width: auto;
         height: auto;
     }
+
 }
