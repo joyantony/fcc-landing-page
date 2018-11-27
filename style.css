@@ -97,17 +97,17 @@ body{
 }
 
 section {
-    margin: 2.5rem 0;
+    margin: 2rem 0;
 }
 
-.tb-padding{
-    /* padding-top: 1.25rem; */
-    /* margin-bottom: 1.25rem; */
+/* .tb-padding{
+    padding-top: 1.25rem; 
+    margin-bottom: 1.25rem;
 }
 
 #video-trip{
     background: #dddddd;
-}
+} */
 
 .flex-container{
     display: flex;
@@ -134,7 +134,7 @@ section {
     font-weight: 300;
     text-align: center;
     margin: 0;
-    padding: 1.25rem 0;
+    padding: 2rem 0 2.5rem 0;
 }
 
 .fas, .far{
