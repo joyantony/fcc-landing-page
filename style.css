@@ -96,9 +96,13 @@ body{
     background: #0066d6;
 }
 
+section {
+    margin: 2.5rem 0;
+}
+
 .tb-padding{
-    padding-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    /* padding-top: 1.25rem; */
+    /* margin-bottom: 1.25rem; */
 }
 
 #video-trip{
@@ -111,14 +115,17 @@ body{
     justify-content: space-between;
 }
 
-.flex-sub-item{
+.features-sub-item{
     display: flex;
     flex-direction: column;
     padding: 1.25rem;
     justify-content: center;
-    border: 1px solid #0066d6;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     border-radius: 5px;
-    margin: 0 1.25rem;
+    flex-basis: 30%;
+    box-sizing: border-box;
+     /* border: 1px solid #0066d6; */
+    /* margin: 0 1.25rem; */
 }
 
 
@@ -126,7 +133,8 @@ body{
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
-    margin-top: .625rem;
+    margin: 0;
+    padding: 1.25rem 0;
 }
 
 .fas, .far{
@@ -149,6 +157,7 @@ body{
     flex-basis: 30%;
     text-align: center;
     padding-bottom: 1.169rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 .pricing-card-head{
@@ -192,7 +201,7 @@ body{
 .main-footer{
     text-align: center;
     background: #dddddd;
-    padding: 1.25rem 0;
+    padding: 1rem 0;
 }
 
 .main-footer ul{
@@ -201,6 +210,23 @@ body{
 
 .main-footer ul li a{
     text-decoration: none;
+    font-size: .9rem;
+    color: #333;
+    padding-right: 1rem;
+}
+
+.main-footer a:hover{
+    color: #000;
+}
+
+.copy{
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.copy a{
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -238,7 +264,7 @@ body{
         flex-direction: column;
     }
 
-    .flex-sub-item, .pricing-card{
+    .features-sub-item, .pricing-card{
         margin-bottom: 1.25rem;
     }
 
