@@ -5,3 +5,9 @@ Kerala Cuisine
 Kerala Backwaters - Houseboat Trip
 
 #button# Plan your trip now.
+
+$container-max-widths: (
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
