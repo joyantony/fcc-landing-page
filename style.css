@@ -17,13 +17,47 @@ body{
     margin: 0 auto;
 }
 
+#header{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0);
+}
+
+#nav-bar{
+    float: right;
+}
+
+#nav-bar ul{
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+#nav-bar li{
+    list-style: none;
+    float: left;
+    padding-right: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
 .center-text{
     text-align: center;
 }
 
-#header-img{
+/* #header-img{
     height: 50px;
     widows: 50px;
+} */
+
+.showcase{
+    margin-top: 0;
 }
 
 .showcase-img{
