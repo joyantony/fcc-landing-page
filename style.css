@@ -21,7 +21,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 2;
-    background: rgb(184, 183, 183);
+    background: #dddddd;
 }
 
 #nav-bar{
@@ -43,8 +43,13 @@ body{
 
 #nav-bar a{
     text-decoration: none;
-    color: #000;
+    color: #333;
+    font-size: 1.125rem;
     font-weight: 400;
+}
+
+#nav-bar a:hover{
+    color: #000;
 }
 
 .center-text{
@@ -168,7 +173,7 @@ section {
     font-weight: 300;
     text-align: center;
     margin: 0;
-    padding: 2rem 0 2.5rem 0;
+    padding: 4rem 0 4rem 0;
 }
 
 .fas, .far{
