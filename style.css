@@ -9,7 +9,7 @@ body{
 .dummy{
     background-color: #3d3232;
     height: 315px;
-    width: 560px;
+    width: auto;
 }
 
 .container{
@@ -40,6 +40,11 @@ body{
     float: left;
     padding-right: 1.25rem;
     padding-top: 1rem;
+    display: block;
+}
+
+#nav-bar li:last-child{
+    padding-right: 1.25rem;
 }
 
 #nav-bar a{
@@ -147,9 +152,9 @@ section {
 /* .tb-padding{
     padding-top: 1.25rem; 
     margin-bottom: 1.25rem;
-}
+} */
 
-#video-trip{
+/* #video-trip{
     background: #dddddd;
 } */
 
@@ -330,6 +335,10 @@ section {
         height: auto;
     }
 
+    #header{
+        height: 80px;
+    }
+
     .logo{
         left: 50%;
         transform: translateX(-50%);
@@ -337,23 +346,29 @@ section {
     }
 
     #nav-bar{
-        float: none;
-    }
-
-    #nav-bar ul{
-        margin: 0;
-        padding: 0;
-        clear: both;
-        text-align: center;
+        position: absolute;
+        padding-top: 30px;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: center;
     }
 
     #nav-bar li{
         list-style: none;
-        float: left;
-        padding-right: 1.25rem;
+        padding-right: .5rem;
         /* padding-top: 1.25rem; */
+        display: inline-block;
+    }
+
+    #nav-bar li:last-child{
+        padding-right: 0;
     }
     
+    .showcase{
+        margin-top: 0;
+        padding-top: 80px;
+    }
 
     .showcase-title{
         font-size: 3rem;
@@ -365,6 +380,10 @@ section {
 
     .showcase-description{
         font-size: 1.2rem;
+    }
+
+    section {
+        margin: 1rem 0;
     }
 
 }
