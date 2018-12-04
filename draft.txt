@@ -11,3 +11,8 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px
 ) !default;
+
+smaller 640 654
+small 990 654
+medium 1380 654
+large 1920 654

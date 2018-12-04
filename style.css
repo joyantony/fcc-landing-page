@@ -22,6 +22,7 @@ body{
     width: 100%;
     z-index: 2;
     background: #dddddd;
+    height: 54px;
 }
 
 #nav-bar{
@@ -38,18 +39,22 @@ body{
     list-style: none;
     float: left;
     padding-right: 1.25rem;
-    padding-top: 1.25rem;
+    padding-top: 1rem;
 }
 
 #nav-bar a{
     text-decoration: none;
     color: #333;
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 #nav-bar a:hover{
     color: #000;
+}
+
+.logo{
+    position: absolute;
 }
 
 .center-text{
@@ -58,11 +63,11 @@ body{
 
 /* #header-img{
     height: 50px;
-    widows: 50px;
 } */
 
 .showcase{
     margin-top: 0;
+    padding-top: 54px;
 }
 
 .showcase-img{
@@ -271,48 +276,41 @@ section {
 
 /* media query */
 
-@media (max-width: 960px){
-    .showcase-title{
-        font-size: 2.9rem;
-    }
-
-    .showcase-subtitle{
-        font-size: 1.875rem;
-    }
-
-    .showcase-description{
-        font-size: 1.1rem;
-    }
-}
-
-
 @media (max-width: 720px){
     .showcase-title{
-        font-size: 1.9rem;
+        font-size: 3.8rem;
     }
 
     .showcase-subtitle{
-        font-size: 1.4rem
+        font-size: 2rem
     }
 
     .showcase-description{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .flex-container{
         flex-direction: column;
     }
 
+    section {
+        margin: 1.5rem 0;
+    }
+
     .features-sub-item, .pricing-card{
         margin-bottom: 1.25rem;
     }
+    
 
-    /* chech again */
-    .pricing-card{
-        margin: 0 1.25rem 1.25rem 1.25rem;
+    .sub-heading{
+        font-size: 2rem;
+        font-weight: 300;
+        text-align: center;
+        margin: 0;
+        padding: 2rem 0 2rem 0;
     }
 
-    #form input[type=email]{
+    /* #form input[type=email]{
         width: 15.625rem;
         padding: .35rem;
         margin-bottom: 1rem;
@@ -323,13 +321,50 @@ section {
         padding: .4rem;
         font-size: 1rem;
         font-weight: 300;
-    }
+    } */
 }
 
-@media (max-width: 570px){
+@media (max-width: 590px){
     #video{
         width: auto;
         height: auto;
+    }
+
+    .logo{
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
+    }
+
+    #nav-bar{
+        float: none;
+    }
+
+    #nav-bar ul{
+        margin: 0;
+        padding: 0;
+        clear: both;
+        text-align: center;
+    }
+
+    #nav-bar li{
+        list-style: none;
+        float: left;
+        padding-right: 1.25rem;
+        /* padding-top: 1.25rem; */
+    }
+    
+
+    .showcase-title{
+        font-size: 3rem;
+    }
+
+    .showcase-subtitle{
+        font-size: 1.8rem
+    }
+
+    .showcase-description{
+        font-size: 1.2rem;
     }
 
 }

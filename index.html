@@ -12,7 +12,9 @@
 <body>
     <header id="header">
       <div class="container">
-          <img src="img/house_boat_logo.png" alt="Houseboat Logo" id="header-img">
+        <div class="logo">
+            <img src="img/house_boat_logo.png" alt="Houseboat Logo" id="header-img">
+        </div>
           <!-- <h3 class="brand">One Day Cruise</h3> -->
           <nav id="nav-bar">
             <ul>
@@ -27,7 +29,12 @@
     <section class="showcase">
       <div class="showcase-wrapper">
           <div class="showcase-overlay">
-          <img class="showcase-img" src="img/house_boat_showcase.jpg" alt="Houseboat Image">
+            <picture>
+              <source media="(min-width: 1380px)" srcset="img/house_boat_large.jpg">
+              <source media="(min-width: 990px)" srcset="img/house_boat_medium.jpg">
+              <source media="(min-width: 640px)" srcset="img/house_boat_small.jpg">
+              <img class="showcase-img" src="img/house_boat_smaller.jpg" alt="Houseboat Image">
+            </picture>
           <div class="showcase-text">
             <h1 class="showcase-title">Kerala Backwaters</h1>
             <h2 class="showcase-subtitle">A Houseboat Trip</h2>
