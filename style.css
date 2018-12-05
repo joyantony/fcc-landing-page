@@ -308,7 +308,7 @@ section {
     }
 }
 
-@media (max-width: 590px){
+@media (max-width: 640px){
     #header{
         height: 80px;
     }
